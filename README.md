@@ -89,7 +89,7 @@ Este proyecto es un foro desarrollado como parte del desafío del programa Alura
    - El servidor responderá con un token JWT que debe ser utilizado para autenticar las solicitudes subsecuentes.
 
 3. **Creación de Publicaciones**
-   - Endpoint: `POST /api/posts`
+   - Endpoint: `POST /api/topic`
    - Ejemplo de solicitud:
      ```json
      {
@@ -98,19 +98,3 @@ Este proyecto es un foro desarrollado como parte del desafío del programa Alura
      }
      ```
    - Requiere autenticación (incluir el token JWT en el encabezado de la solicitud).
-
-4. **Comentarios en Publicaciones**
-   - Endpoint: `POST /api/posts/{postId}/comments`
-   - Ejemplo de solicitud:
-     ```json
-     {
-       "content": "Comentario en la publicación"
-     }
-     ```
-   - Requiere autenticación (incluir el token JWT en el encabezado de la solicitud).
-
----
-
-### Contacto
-
-Para cualquier consulta o comentario sobre este proyecto, puedes contactarme a través de [tu-email@example.com].
