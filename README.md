@@ -55,7 +55,7 @@ Este proyecto es un foro desarrollado como parte del desafío del programa Alura
 
 4. **Acceder a la aplicación**
 
-   La aplicación estará disponible en `http://localhost:8080`.
+   La aplicación estará disponible en `http://localhost:9090`.
 
 ---
 
