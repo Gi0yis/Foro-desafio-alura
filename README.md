@@ -1,9 +1,4 @@
----
-
 # Foro Desafío Alura
-
----
-
 Este proyecto es un foro desarrollado como parte del desafío del programa Alura Latam. El foro permite a los usuarios registrarse, iniciar sesión, crear publicaciones y comentar en las publicaciones de otros usuarios. Está diseñado con un enfoque en la robustez y escalabilidad, utilizando tecnologías modernas y buenas prácticas de desarrollo.
 
 ---
