@@ -18,7 +18,7 @@ public class TokenService {
 
     public String generateToken(User user) {
         try {
-            Algorithm algorithm = Algorithm.HMAC256("securePassword!2024");
+            Algorithm algorithm = Algorithm.HMAC256("Password");
             return JWT.create()
                     .withIssuer("Foro Hub")
                     .withSubject(user.getEmail())
